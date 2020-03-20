@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		235177D4DF64EC286F7CAE52 /* libPods-SaludVitale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55603BC69749E5A9070E1AEF /* libPods-SaludVitale.a */; };
+		D53392EF2423F3AE0029044F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D53392EE2423F3AE0029044F /* GoogleService-Info.plist */; };
+		D5971C412422C2C200DB10C8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5971C402422C2C200DB10C8 /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57DD6532423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6FFB7B2992BB53405E6B771A5BA1E97D;
+			remoteInfo = DoubleConversion;
+		};
+		D57DD6552423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABFEEA82A6C346B22843FBE0B0582182;
+			remoteInfo = FBReactNativeSpec;
+		};
+		D57DD6572423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2B63D462DB7F827C4B11FD51E4F8E2D;
+			remoteInfo = FirebaseCore;
+		};
+		D57DD6592423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51671C73F008B5C0C3751B3855999213;
+			remoteInfo = FirebaseDatabase;
+		};
+		D57DD65B2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DA0D814DFCB860D31D7BCD63D795858;
+			remoteInfo = FirebaseInstanceID;
+		};
+		D57DD65D2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B654B4B042BA7DC93766943A643E42B;
+			remoteInfo = FirebaseMessaging;
+		};
+		D57DD65F2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06489499588BFA8FD5E63DD6375CD533;
+			remoteInfo = Folly;
+		};
+		D57DD6612423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3CA7A9404CCDD6BA22C97F8348CE3209;
+			remoteInfo = glog;
+		};
+		D57DD6632423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		D57DD6652423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A9F46A999C47653013D3AD854352507;
+			remoteInfo = "leveldb-library";
+		};
+		D57DD6672423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		D57DD6692423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E9AF21F898BC524C9528CE6458544DB;
+			remoteInfo = Picker;
+		};
+		D57DD66B2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C863DCC1AB08AFFA45201E3D24656F48;
+			remoteInfo = "Pods-SaludVitale";
+		};
+		D57DD66D2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1638F4CB7D5B28F0EE9761200591EBB;
+			remoteInfo = "Pods-SaludVitale-tvOS";
+		};
+		D57DD66F2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DEBA49B160893747936F3DA72E57AB3;
+			remoteInfo = "Pods-SaludVitale-tvOSTests";
+		};
+		D57DD6712423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F74E0644A4D8F6FE6F8F1BB634849FBE;
+			remoteInfo = "Pods-SaludVitaleTests";
+		};
+		D57DD6732423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2105C94812B6214B154F54DCEDB72AC;
+			remoteInfo = Protobuf;
+		};
+		D57DD6752423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F958876A082BF810B342435CE3FB5AF6;
+			remoteInfo = RCTTypeSafety;
+		};
+		D57DD6772423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD71E2539823621820F84384064C253A;
+			remoteInfo = "React-Core";
+		};
+		D57DD6792423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6771D231F4C8C5976470A369C474B32E;
+			remoteInfo = "React-CoreModules";
+		};
+		D57DD67B2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37592FDAD45752511010F4B06AC57355;
+			remoteInfo = "React-cxxreact";
+		};
+		D57DD67D2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9F334F2E90E3EE462FC4192AF5C03BD;
+			remoteInfo = "React-jsi";
+		};
+		D57DD67F2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F2E7C88DFCD460A4B46B913ADEB8A641;
+			remoteInfo = "React-jsiexecutor";
+		};
+		D57DD6812423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2577F299FCB0A19824FE989BE77B8E8F;
+			remoteInfo = "React-jsinspector";
+		};
+		D57DD6832423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73F8A95B79671F501F31EA4F1D04AA8B;
+			remoteInfo = "React-RCTActionSheet";
+		};
+		D57DD6852423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE7B9294FF05AAFD1653E2104E10844A;
+			remoteInfo = "React-RCTAnimation";
+		};
+		D57DD6872423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F71EBF73F354B475D465FF6DE9A66707;
+			remoteInfo = "React-RCTBlob";
+		};
+		D57DD6892423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEDBF403E8E0B3885E65C2741B536BC5;
+			remoteInfo = "React-RCTImage";
+		};
+		D57DD68B2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 802121F5B756ACBFDD6D08C36246DADD;
+			remoteInfo = "React-RCTLinking";
+		};
+		D57DD68D2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A68E5A9B69A3BA0FD52CAF7A354EC93B;
+			remoteInfo = "React-RCTNetwork";
+		};
+		D57DD68F2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 269BE773C9482484B70949A40F4EA525;
+			remoteInfo = "React-RCTSettings";
+		};
+		D57DD6912423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6A16705C69FC7DE11C2469A4A0F8358;
+			remoteInfo = "React-RCTText";
+		};
+		D57DD6932423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1A919103EAC9813D236486C34FC0A21;
+			remoteInfo = "React-RCTVibration";
+		};
+		D57DD6952423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5C775614AC76D44CECB6BE08B022F1F;
+			remoteInfo = ReactCommon;
+		};
+		D57DD6972423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EAF7225D8D498E7D232AE1520E6CBD3;
+			remoteInfo = RNFirebase;
+		};
+		D57DD6992423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8F65F9361F2069CF9E9D751272968DE4;
+			remoteInfo = RNGestureHandler;
+		};
+		D57DD69B2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8998273719FDD789E6F9C7541AFD0B33;
+			remoteInfo = RNVectorIcons;
+		};
+		D57DD69D2423B86E003F1545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65D0A19C165FA1126B1360680FE6DB12;
+			remoteInfo = Yoga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SaludVitaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaludVitaleTests.m; sourceTree = "<group>"; };
+		0A74E2BAA791C51DED8CD6FE /* Pods-SaludVitale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale.release.xcconfig"; path = "Target Support Files/Pods-SaludVitale/Pods-SaludVitale.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SaludVitale Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SaludVitale Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SaludVitale/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SaludVitale/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SaludVitale/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SaludVitale/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SaludVitale/main.m; sourceTree = "<group>"; };
+		3DADD83FF1F78C1EBA0F7165 /* libPods-SaludVitale-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaludVitale-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55603BC69749E5A9070E1AEF /* libPods-SaludVitale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaludVitale.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58958657FFF9CEA1EDE362D1 /* Pods-SaludVitaleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitaleTests.debug.xcconfig"; path = "Target Support Files/Pods-SaludVitaleTests/Pods-SaludVitaleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63192EF066140AC669A111E0 /* libPods-SaludVitaleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaludVitaleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C83EDF90333D46747FCA1EF /* Pods-SaludVitale-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SaludVitale-tvOSTests/Pods-SaludVitale-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACEA56E677007342D4C629ED /* Pods-SaludVitale-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SaludVitale-tvOS/Pods-SaludVitale-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		CCCA25E9A50FAECDF8B65ADB /* libPods-SaludVitale-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaludVitale-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFC7F998BDD3A9F8BE89580 /* Pods-SaludVitale-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SaludVitale-tvOSTests/Pods-SaludVitale-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D53392EE2423F3AE0029044F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D57DD61E2423B86E003F1545 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		D5971C3F2422C11900DB10C8 /* SaludVitale.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SaludVitale.entitlements; path = SaludVitale/SaludVitale.entitlements; sourceTree = "<group>"; };
+		D5971C402422C2C200DB10C8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		E0D07DEE2BF714EEF15BF5D4 /* Pods-SaludVitale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale.debug.xcconfig"; path = "Target Support Files/Pods-SaludVitale/Pods-SaludVitale.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FDC45D3D8F60529C1A6E2C50 /* Pods-SaludVitaleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitaleTests.release.xcconfig"; path = "Target Support Files/Pods-SaludVitaleTests/Pods-SaludVitaleTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE0B881E68751EF99545D543 /* Pods-SaludVitale-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SaludVitale-tvOS/Pods-SaludVitale-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5971C412422C2C200DB10C8 /* UserNotifications.framework in Frameworks */,
+				235177D4DF64EC286F7CAE52 /* libPods-SaludVitale.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* SaludVitaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* SaludVitaleTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = SaludVitaleTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* SaludVitale */ = {
+			isa = PBXGroup;
+			children = (
+				D5971C3F2422C11900DB10C8 /* SaludVitale.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				D53392EE2423F3AE0029044F /* GoogleService-Info.plist */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = SaludVitale;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5971C402422C2C200DB10C8 /* UserNotifications.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				55603BC69749E5A9070E1AEF /* libPods-SaludVitale.a */,
+				CCCA25E9A50FAECDF8B65ADB /* libPods-SaludVitale-tvOS.a */,
+				3DADD83FF1F78C1EBA0F7165 /* libPods-SaludVitale-tvOSTests.a */,
+				63192EF066140AC669A111E0 /* libPods-SaludVitaleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* SaludVitale */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SaludVitaleTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				FD03C5227C12F1B580DA6E56 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SaludVitale Doctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57DD61F2423B86E003F1545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57DD6542423B86E003F1545 /* libDoubleConversion.a */,
+				D57DD6562423B86E003F1545 /* libFBReactNativeSpec.a */,
+				D57DD6582423B86E003F1545 /* libFirebaseCore.a */,
+				D57DD65A2423B86E003F1545 /* libFirebaseDatabase.a */,
+				D57DD65C2423B86E003F1545 /* libFirebaseInstanceID.a */,
+				D57DD65E2423B86E003F1545 /* libFirebaseMessaging.a */,
+				D57DD6602423B86E003F1545 /* libFolly.a */,
+				D57DD6622423B86E003F1545 /* libglog.a */,
+				D57DD6642423B86E003F1545 /* libGoogleUtilities.a */,
+				D57DD6662423B86E003F1545 /* libleveldb-library.a */,
+				D57DD6682423B86E003F1545 /* libnanopb.a */,
+				D57DD66A2423B86E003F1545 /* libPicker.a */,
+				D57DD66C2423B86E003F1545 /* libPods-SaludVitale.a */,
+				D57DD66E2423B86E003F1545 /* libPods-SaludVitale-tvOS.a */,
+				D57DD6702423B86E003F1545 /* libPods-SaludVitale-tvOSTests.a */,
+				D57DD6722423B86E003F1545 /* libPods-SaludVitaleTests.a */,
+				D57DD6742423B86E003F1545 /* libProtobuf.a */,
+				D57DD6762423B86E003F1545 /* libRCTTypeSafety.a */,
+				D57DD6782423B86E003F1545 /* libReact-Core.a */,
+				D57DD67A2423B86E003F1545 /* libReact-CoreModules.a */,
+				D57DD67C2423B86E003F1545 /* libReact-cxxreact.a */,
+				D57DD67E2423B86E003F1545 /* libReact-jsi.a */,
+				D57DD6802423B86E003F1545 /* libReact-jsiexecutor.a */,
+				D57DD6822423B86E003F1545 /* libReact-jsinspector.a */,
+				D57DD6842423B86E003F1545 /* libReact-RCTActionSheet.a */,
+				D57DD6862423B86E003F1545 /* libReact-RCTAnimation.a */,
+				D57DD6882423B86E003F1545 /* libReact-RCTBlob.a */,
+				D57DD68A2423B86E003F1545 /* libReact-RCTImage.a */,
+				D57DD68C2423B86E003F1545 /* libReact-RCTLinking.a */,
+				D57DD68E2423B86E003F1545 /* libReact-RCTNetwork.a */,
+				D57DD6902423B86E003F1545 /* libReact-RCTSettings.a */,
+				D57DD6922423B86E003F1545 /* libReact-RCTText.a */,
+				D57DD6942423B86E003F1545 /* libReact-RCTVibration.a */,
+				D57DD6962423B86E003F1545 /* libReactCommon.a */,
+				D57DD6982423B86E003F1545 /* libRNFirebase.a */,
+				D57DD69A2423B86E003F1545 /* libRNGestureHandler.a */,
+				D57DD69C2423B86E003F1545 /* libRNVectorIcons.a */,
+				D57DD69E2423B86E003F1545 /* libYoga.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD03C5227C12F1B580DA6E56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D57DD61E2423B86E003F1545 /* Pods.xcodeproj */,
+				E0D07DEE2BF714EEF15BF5D4 /* Pods-SaludVitale.debug.xcconfig */,
+				0A74E2BAA791C51DED8CD6FE /* Pods-SaludVitale.release.xcconfig */,
+				FE0B881E68751EF99545D543 /* Pods-SaludVitale-tvOS.debug.xcconfig */,
+				ACEA56E677007342D4C629ED /* Pods-SaludVitale-tvOS.release.xcconfig */,
+				CFFC7F998BDD3A9F8BE89580 /* Pods-SaludVitale-tvOSTests.debug.xcconfig */,
+				7C83EDF90333D46747FCA1EF /* Pods-SaludVitale-tvOSTests.release.xcconfig */,
+				58958657FFF9CEA1EDE362D1 /* Pods-SaludVitaleTests.debug.xcconfig */,
+				FDC45D3D8F60529C1A6E2C50 /* Pods-SaludVitaleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* SaludVitale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SaludVitale" */;
+			buildPhases = (
+				E7CE883F74FF85FE186CFF45 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				541D8EF05E74328F83E0EB28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaludVitale;
+			productName = SaludVitale;
+			productReference = 13B07F961A680F5B00A75B9A /* SaludVitale Doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = P84HN3K78F;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SaludVitale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D57DD61F2423B86E003F1545 /* Products */;
+					ProjectRef = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* SaludVitale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D57DD6542423B86E003F1545 /* libDoubleConversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDoubleConversion.a;
+			remoteRef = D57DD6532423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6562423B86E003F1545 /* libFBReactNativeSpec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFBReactNativeSpec.a;
+			remoteRef = D57DD6552423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6582423B86E003F1545 /* libFirebaseCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebaseCore.a;
+			remoteRef = D57DD6572423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD65A2423B86E003F1545 /* libFirebaseDatabase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebaseDatabase.a;
+			remoteRef = D57DD6592423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD65C2423B86E003F1545 /* libFirebaseInstanceID.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebaseInstanceID.a;
+			remoteRef = D57DD65B2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD65E2423B86E003F1545 /* libFirebaseMessaging.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebaseMessaging.a;
+			remoteRef = D57DD65D2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6602423B86E003F1545 /* libFolly.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFolly.a;
+			remoteRef = D57DD65F2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6622423B86E003F1545 /* libglog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libglog.a;
+			remoteRef = D57DD6612423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6642423B86E003F1545 /* libGoogleUtilities.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGoogleUtilities.a;
+			remoteRef = D57DD6632423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6662423B86E003F1545 /* libleveldb-library.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libleveldb-library.a";
+			remoteRef = D57DD6652423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6682423B86E003F1545 /* libnanopb.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libnanopb.a;
+			remoteRef = D57DD6672423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD66A2423B86E003F1545 /* libPicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPicker.a;
+			remoteRef = D57DD6692423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD66C2423B86E003F1545 /* libPods-SaludVitale.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SaludVitale.a";
+			remoteRef = D57DD66B2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD66E2423B86E003F1545 /* libPods-SaludVitale-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SaludVitale-tvOS.a";
+			remoteRef = D57DD66D2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6702423B86E003F1545 /* libPods-SaludVitale-tvOSTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SaludVitale-tvOSTests.a";
+			remoteRef = D57DD66F2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6722423B86E003F1545 /* libPods-SaludVitaleTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SaludVitaleTests.a";
+			remoteRef = D57DD6712423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6742423B86E003F1545 /* libProtobuf.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libProtobuf.a;
+			remoteRef = D57DD6732423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6762423B86E003F1545 /* libRCTTypeSafety.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTTypeSafety.a;
+			remoteRef = D57DD6752423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6782423B86E003F1545 /* libReact-Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-Core.a";
+			remoteRef = D57DD6772423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD67A2423B86E003F1545 /* libReact-CoreModules.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-CoreModules.a";
+			remoteRef = D57DD6792423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD67C2423B86E003F1545 /* libReact-cxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-cxxreact.a";
+			remoteRef = D57DD67B2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD67E2423B86E003F1545 /* libReact-jsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsi.a";
+			remoteRef = D57DD67D2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6802423B86E003F1545 /* libReact-jsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsiexecutor.a";
+			remoteRef = D57DD67F2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6822423B86E003F1545 /* libReact-jsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsinspector.a";
+			remoteRef = D57DD6812423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6842423B86E003F1545 /* libReact-RCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTActionSheet.a";
+			remoteRef = D57DD6832423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6862423B86E003F1545 /* libReact-RCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTAnimation.a";
+			remoteRef = D57DD6852423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6882423B86E003F1545 /* libReact-RCTBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTBlob.a";
+			remoteRef = D57DD6872423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD68A2423B86E003F1545 /* libReact-RCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTImage.a";
+			remoteRef = D57DD6892423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD68C2423B86E003F1545 /* libReact-RCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTLinking.a";
+			remoteRef = D57DD68B2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD68E2423B86E003F1545 /* libReact-RCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTNetwork.a";
+			remoteRef = D57DD68D2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6902423B86E003F1545 /* libReact-RCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTSettings.a";
+			remoteRef = D57DD68F2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6922423B86E003F1545 /* libReact-RCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTText.a";
+			remoteRef = D57DD6912423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6942423B86E003F1545 /* libReact-RCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTVibration.a";
+			remoteRef = D57DD6932423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6962423B86E003F1545 /* libReactCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactCommon.a;
+			remoteRef = D57DD6952423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD6982423B86E003F1545 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = D57DD6972423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD69A2423B86E003F1545 /* libRNGestureHandler.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGestureHandler.a;
+			remoteRef = D57DD6992423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD69C2423B86E003F1545 /* libRNVectorIcons.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNVectorIcons.a;
+			remoteRef = D57DD69B2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D57DD69E2423B86E003F1545 /* libYoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYoga.a;
+			remoteRef = D57DD69D2423B86E003F1545 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D53392EF2423F3AE0029044F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		541D8EF05E74328F83E0EB28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaludVitale/Pods-SaludVitale-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaludVitale/Pods-SaludVitale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CE883F74FF85FE186CFF45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaludVitale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = SaludVitale;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D07DEE2BF714EEF15BF5D4 /* Pods-SaludVitale.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SaludVitale/SaludVitale.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = P84HN3K78F;
+				INFOPLIST_FILE = SaludVitale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.4;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.reactjs.native.example.SaludVitale;
+				PRODUCT_NAME = "SaludVitale Doctor";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A74E2BAA791C51DED8CD6FE /* Pods-SaludVitale.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SaludVitale/SaludVitale.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84HN3K78F;
+				INFOPLIST_FILE = SaludVitale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.4;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.reactjs.native.example.SaludVitale;
+				PRODUCT_NAME = "SaludVitale Doctor";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SaludVitale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SaludVitale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
