@@ -12,11 +12,25 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		235177D4DF64EC286F7CAE52 /* libPods-SaludVitale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55603BC69749E5A9070E1AEF /* libPods-SaludVitale.a */; };
-		D53392EF2423F3AE0029044F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D53392EE2423F3AE0029044F /* GoogleService-Info.plist */; };
+		D05B5D4E2425650100F8C80B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D05B5D4D2425650100F8C80B /* GoogleService-Info.plist */; };
 		D5971C412422C2C200DB10C8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5971C402422C2C200DB10C8 /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D05B5D49242562C800F8C80B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C777CF2FB1E39A45CBBDB54E8693F471;
+			remoteInfo = RNReanimated;
+		};
+		D05B5D4B242562C800F8C80B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50B5347C9A6E93B7D4CFC3673BA6FB7E;
+			remoteInfo = RNScreens;
+		};
 		D57DD6532423B86E003F1545 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
@@ -107,27 +121,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = C863DCC1AB08AFFA45201E3D24656F48;
 			remoteInfo = "Pods-SaludVitale";
-		};
-		D57DD66D2423B86E003F1545 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C1638F4CB7D5B28F0EE9761200591EBB;
-			remoteInfo = "Pods-SaludVitale-tvOS";
-		};
-		D57DD66F2423B86E003F1545 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DEBA49B160893747936F3DA72E57AB3;
-			remoteInfo = "Pods-SaludVitale-tvOSTests";
-		};
-		D57DD6712423B86E003F1545 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D57DD61E2423B86E003F1545 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F74E0644A4D8F6FE6F8F1BB634849FBE;
-			remoteInfo = "Pods-SaludVitaleTests";
 		};
 		D57DD6732423B86E003F1545 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -305,6 +298,7 @@
 		ACEA56E677007342D4C629ED /* Pods-SaludVitale-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SaludVitale-tvOS/Pods-SaludVitale-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		CCCA25E9A50FAECDF8B65ADB /* libPods-SaludVitale-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaludVitale-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFC7F998BDD3A9F8BE89580 /* Pods-SaludVitale-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaludVitale-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SaludVitale-tvOSTests/Pods-SaludVitale-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D05B5D4D2425650100F8C80B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SaludVitale/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D53392EE2423F3AE0029044F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D57DD61E2423B86E003F1545 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
 		D5971C3F2422C11900DB10C8 /* SaludVitale.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SaludVitale.entitlements; path = SaludVitale/SaludVitale.entitlements; sourceTree = "<group>"; };
@@ -386,6 +380,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D05B5D4D2425650100F8C80B /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* SaludVitale */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SaludVitaleTests */,
@@ -422,9 +417,6 @@
 				D57DD6682423B86E003F1545 /* libnanopb.a */,
 				D57DD66A2423B86E003F1545 /* libPicker.a */,
 				D57DD66C2423B86E003F1545 /* libPods-SaludVitale.a */,
-				D57DD66E2423B86E003F1545 /* libPods-SaludVitale-tvOS.a */,
-				D57DD6702423B86E003F1545 /* libPods-SaludVitale-tvOSTests.a */,
-				D57DD6722423B86E003F1545 /* libPods-SaludVitaleTests.a */,
 				D57DD6742423B86E003F1545 /* libProtobuf.a */,
 				D57DD6762423B86E003F1545 /* libRCTTypeSafety.a */,
 				D57DD6782423B86E003F1545 /* libReact-Core.a */,
@@ -445,6 +437,8 @@
 				D57DD6962423B86E003F1545 /* libReactCommon.a */,
 				D57DD6982423B86E003F1545 /* libRNFirebase.a */,
 				D57DD69A2423B86E003F1545 /* libRNGestureHandler.a */,
+				D05B5D4A242562C800F8C80B /* libRNReanimated.a */,
+				D05B5D4C242562C800F8C80B /* libRNScreens.a */,
 				D57DD69C2423B86E003F1545 /* libRNVectorIcons.a */,
 				D57DD69E2423B86E003F1545 /* libYoga.a */,
 			);
@@ -501,7 +495,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = P84HN3K78F;
+						DevelopmentTeam = MY46E7LJW5;
 					};
 				};
 			};
@@ -531,6 +525,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		D05B5D4A242562C800F8C80B /* libRNReanimated.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNReanimated.a;
+			remoteRef = D05B5D49242562C800F8C80B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D05B5D4C242562C800F8C80B /* libRNScreens.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNScreens.a;
+			remoteRef = D05B5D4B242562C800F8C80B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		D57DD6542423B86E003F1545 /* libDoubleConversion.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -620,27 +628,6 @@
 			fileType = archive.ar;
 			path = "libPods-SaludVitale.a";
 			remoteRef = D57DD66B2423B86E003F1545 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D57DD66E2423B86E003F1545 /* libPods-SaludVitale-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-SaludVitale-tvOS.a";
-			remoteRef = D57DD66D2423B86E003F1545 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D57DD6702423B86E003F1545 /* libPods-SaludVitale-tvOSTests.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-SaludVitale-tvOSTests.a";
-			remoteRef = D57DD66F2423B86E003F1545 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D57DD6722423B86E003F1545 /* libPods-SaludVitaleTests.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-SaludVitaleTests.a";
-			remoteRef = D57DD6712423B86E003F1545 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D57DD6742423B86E003F1545 /* libProtobuf.a */ = {
@@ -805,8 +792,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D05B5D4E2425650100F8C80B /* GoogleService-Info.plist in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				D53392EF2423F3AE0029044F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -951,7 +938,7 @@
 				CODE_SIGN_ENTITLEMENTS = SaludVitale/SaludVitale.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = P84HN3K78F;
+				DEVELOPMENT_TEAM = MY46E7LJW5;
 				INFOPLIST_FILE = SaludVitale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.4;
@@ -960,7 +947,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.org.reactjs.native.example.SaludVitale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trackgts.app.ec;
 				PRODUCT_NAME = "SaludVitale Doctor";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -973,7 +960,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SaludVitale/SaludVitale.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P84HN3K78F;
+				DEVELOPMENT_TEAM = MY46E7LJW5;
 				INFOPLIST_FILE = SaludVitale/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.4;
@@ -982,7 +969,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.org.reactjs.native.example.SaludVitale;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trackgts.app.ec;
 				PRODUCT_NAME = "SaludVitale Doctor";
 				VERSIONING_SYSTEM = "apple-generic";
 			};

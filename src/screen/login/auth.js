@@ -15,9 +15,9 @@ class auth extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      p:'', 
+      p:'',
       q:''
-      
+
     };
     this.login = this.login.bind(this);
     //console.log(this.props);
@@ -26,7 +26,7 @@ class auth extends Component {
   componentDidMount() {
     this._bootstrapAsync();
     this.getToken();
-   
+
   }
   // Fetch the token from storage then navigate to our appropriate place
    _bootstrapAsync = async () => {
@@ -37,13 +37,13 @@ class auth extends Component {
     //console.log(userToken);
     //console.log('Datos2 pais');
     let parsed = JSON.parse(userToken);
-    //console.log('Datos');  
+    //console.log('Datos');
     //    console.log(parsed);
     this.setState({ p: parsed });
      //console.log('Datos Almacenados del usuario');
     //console.log('Datos del usuario', parsed);
- 
-    
+
+
     if(userToken==null){
       this.props.navigation.navigate("pais");
     }else{
@@ -52,12 +52,12 @@ class auth extends Component {
       var pais= userTok            //"https://www.saludvitale.com/panama"  ;       // userTok;
       //console.log(pais);
       this.login(pais);
-    } 
+    }
     // this.props.navigation.navigate(userToken ? 'HomeScreen' : 'pais');
   };
 
   login(c) {
-    
+
     const { navigation } = this.props;
     //"https://www.saludvitale.com/panama"
     //navigation.getParam("ecua", "ecua");
@@ -84,7 +84,7 @@ class auth extends Component {
           //console.log(returnedTarget);
           //AsyncStorage.setItem('userDatos',returnedTarget);
           this.props.navigation.navigate("HomeScreen");
-         
+
         } else {
           //console.log(response.data.message);
           //Alert.alert('', "Usuario o Contraseña Inconrrecta");
@@ -101,7 +101,7 @@ class auth extends Component {
       .getToken()
       .then(fcmToken => {
         if (fcmToken) {
-          //console.log(fcmToken);
+          console.log(fcmToken);
           this.setState({ token: fcmToken });
           //console.log("Johana");
           //console.log(this.state.token);
@@ -115,7 +115,7 @@ class auth extends Component {
     return (
       <View style={[styles.container, styles.horizontal]}>
         <ActivityIndicator size="large" color="#009bd9"/>
-       
+
       </View>
     );
   }

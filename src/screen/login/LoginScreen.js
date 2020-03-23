@@ -23,7 +23,7 @@ class LoginScreen extends Component {
       userData: {},
       p:{},
       pais1:""
-     
+
     };
     this.login = this.login.bind(this);
    // console.log(this.props);
@@ -35,7 +35,7 @@ class LoginScreen extends Component {
       .getToken()
       .then(fcmToken => {
         if (fcmToken) {
-          //console.log(fcmToken);
+          console.log(fcmToken);
           this.setState({ token: fcmToken });
          // console.log("Johana");
          // console.log(this.state.token);
@@ -52,14 +52,15 @@ class LoginScreen extends Component {
     });
   };
 
-  componentDidMount() {
+  async componentDidMount() {
    const { navigation } = this.props;
    pais = navigation.getParam("ecua", "ecua");
    this.setState({ pais1: pais });
+   await firebase.messaging().requestPermission();
    this.getToken();
     //console.log(this.state.userData);
     //this.getTokenn();
-   
+
   }
 
   //(mantener la sesion
@@ -69,7 +70,7 @@ class LoginScreen extends Component {
        //console.log(user);
        //console.log("dsds")
        await AsyncStorage.setItem("userData",(user));
-     
+
     } catch (error) {
       //console.log("Something went wrong", error);
     }
@@ -143,7 +144,7 @@ class LoginScreen extends Component {
         mainAction={this.login}
         contactButtonTitle="Contactanos"
         registroButtonTitle="Registrarse"
-     
+
       />
     );
   }

@@ -2,26 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>758666974478-6st84e11f209rjov0puc94it0mr7sgos.apps.googleusercontent.com</string>
+	<string>244810579453-ktia297jjtms5vltscmcpcj2rt9hl3em.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.758666974478-6st84e11f209rjov0puc94it0mr7sgos</string>
+	<string>com.googleusercontent.apps.244810579453-ktia297jjtms5vltscmcpcj2rt9hl3em</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>758666974478-brpcehnunr4aja5lrhv0ac40oi6un3a7.apps.googleusercontent.com</string>
+	<string>244810579453-18ie1epprg9rk91mcgmj8hund2l93l0n.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAMgMlqXhtdkzr_zvFkVSCqrSIMRLhGRsY</string>
+	<string>AIzaSyCuDr7XlUEFVONSGV4eBdJ-HQkAbLlh2Oo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>758666974478</string>
+	<string>244810579453</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.org.reactjs.native.example.SaludVitale</string>
+	<string>com.trackgts.app.ec</string>
 	<key>PROJECT_ID</key>
-	<string>saludvitale-f7b2c</string>
+	<string>trackgts-2f941</string>
 	<key>STORAGE_BUCKET</key>
-	<string>saludvitale-f7b2c.appspot.com</string>
+	<string>trackgts-2f941.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
@@ -31,8 +35,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:758666974478:ios:01e0f5da1f79a10831735f</string>
+	<string>1:244810579453:ios:7628068d42b7b8ee</string>
 	<key>DATABASE_URL</key>
-	<string>https://saludvitale-f7b2c.firebaseio.com</string>
+	<string>https://trackgts-2f941.firebaseio.com</string>
 </dict>
 </plist>

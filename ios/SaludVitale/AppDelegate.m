@@ -44,6 +44,9 @@
   completionHandler();
 }
 
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    NSLog(@"Something To Print \(error)");
+}
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 
