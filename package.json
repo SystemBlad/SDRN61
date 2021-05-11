@@ -15,7 +15,7 @@
     "bcrypt": "^3.0.6",
     "bcryptjs": "^2.4.3",
     "firebase": "^6.6.2",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "picker": "^0.1.4",
     "react": "16.9.0",
