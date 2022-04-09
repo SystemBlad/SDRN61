@@ -16,7 +16,7 @@
     "bcryptjs": "^2.4.3",
     "firebase": "^6.6.2",
     "lodash": "^4.17.14",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "picker": "^0.1.4",
     "react": "16.9.0",
     "react-mobile-datetimepicker": "^1.0.10",
